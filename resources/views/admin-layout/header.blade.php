@@ -123,7 +123,7 @@
       </li> --}}
         <li class="dropdown"><a href="#" data-toggle="dropdown"
                 class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                <img alt="image" src="{{ url('img') }}/logo.png" class="user-img-radious-style"> <span
+                <img alt="image" src="{{ url('img/merah_motif.png') }}" class="user-img-radious-style"> <span
                     class="d-sm-none d-lg-inline-block"></span></a>
             <div class="dropdown-menu dropdown-menu-right pullDown">
                 <div class="dropdown-title">Hello Admin Anuttara Resto</div>

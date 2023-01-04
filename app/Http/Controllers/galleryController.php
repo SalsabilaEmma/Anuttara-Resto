@@ -103,7 +103,8 @@ class galleryController extends Controller
             $gallery->delete();
             return redirect()->back()->with('error' , 'Data Berhasil Dihapus!');
         } else {
-            return redirect()->back()->with('error' , 'Data Tidak Ditemukan!');
+            $gallery->delete();
+            return redirect()->back()->with(['error' => 'Data Berhasil Dihapus!']);
         }
     }
 }

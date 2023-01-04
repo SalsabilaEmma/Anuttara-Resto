@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{ url('otika') }}/assets/bundles/summernote/summernote-bs4.css">
     {{-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> --}}
     <link rel="stylesheet" href="{{ url('otika') }}/assets/bundles/chocolat/dist/css/chocolat.css">
-    <link rel='shortcut icon' type='image/x-icon' href='{{ url('img') }}/logo.png' />
+    <link rel='shortcut icon' type='image/x-icon' href='{{ url('img/merah_transparan.png') }}' />
 
     @section('css')
     @show

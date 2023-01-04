@@ -2,7 +2,7 @@
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
             <a href="{{ route('admin') }}">
-                <img alt="image" src="{{ url('img') }}/logolala.png" class="header-logo" />
+                <img alt="image" src="{{ url('img/hitam_transparan.png') }}" class="header-logo" />
                 {{-- <span class="logo-name">Anuttara Resto</span> --}}
             </a>
         </div>

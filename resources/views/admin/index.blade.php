@@ -7,10 +7,11 @@
                 <div class="col-6 col-sm-12 col-lg-6">
                     <div class="card">
                         <div class="card-header">
-                            <h4>KOROMI RESTO</h4>
+                            <h4>ANUTTARA RESTO</h4>
                         </div>
                         <div class="card-body zoom">
-                            <center><img src="{{ url('img') }}/logo.png" height="80px" alt="Anuttara Resto Logo"></center>
+                            <center><img src="{{ url('img/hitam_transparan.png') }}" height="110px" alt="Anuttara Resto Logo">
+                            </center>
                         </div>
                     </div>
                 </div>
@@ -25,7 +26,7 @@
                             <!-- Histats.com  START  (aync)-->
                             <script type="text/javascript">
                                 var _Hasync = _Hasync || [];
-                                _Hasync.push(['Histats.start', '1,4725779,4,428,112,75,00011110']);
+                                _Hasync.push(['Histats.start', '1,4730052,4,4002,112,61,00011110']);
                                 _Hasync.push(['Histats.fasi', '1']);
                                 _Hasync.push(['Histats.track_hits', '']);
                                 (function() {
@@ -36,10 +37,10 @@
                                     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
                                 })();
                             </script>
-                            <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4725779&101"
+                            <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4730052&101"
                                         alt="" border="0"></a></noscript>
                             <!-- Histats.com  END  -->
-
+<br><br>
                         </div>
                     </div>
                 </div>

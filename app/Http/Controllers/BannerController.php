@@ -98,7 +98,8 @@ class BannerController extends Controller
             $data_banner->delete();
             return redirect()->back()->with(['error' => 'Data Berhasil Dihapus!']);
         } else {
-            return redirect()->back()->with(['error' => 'Data Tidak Ditemukan!']);
+            $data_banner->delete();
+            return redirect()->back()->with(['error' => 'Data Berhasil Dihapus!']);
         }
 
     }

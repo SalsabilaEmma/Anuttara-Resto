@@ -10,7 +10,7 @@
 
     <!-- Favicon -->
     {{-- <link href="{{ url('') }}/img/logo.png" rel="icon"> --}}
-    <link rel='shortcut icon' type='image/x-icon' href='{{ url('img') }}/logo.png' />
+    <link rel='shortcut icon' type='image/x-icon' href='{{ url('img/merah_transparan.png') }}' />
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet">

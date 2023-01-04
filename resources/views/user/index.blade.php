@@ -153,7 +153,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="{{ url('user/img/a.JPG') }}" alt="Image">
+                        <img src="{{ url('img/index.png') }}" alt="Image">
                         {{-- <button type="button" class="btn-play" data-toggle="modal"
                             data-src="" data-target="#videoModal">
                             <span></span>
@@ -169,7 +169,7 @@
                         <div class="about-text">
                             @foreach ($about as $abouts)
                                 @if ($abouts->judul == 'About Us')
-                                    <p>{{ $abouts->isi }}</p>
+                                    <p>{!! $abouts->isi !!}</p>
                                 @endif
                             @endforeach
                             {{-- <a class="btn custom-btn" href="">Book A Table</a> --}}
@@ -185,41 +185,13 @@
     <div class="feature">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="section-header">
-                        <p>Why Choose Us</p>
-                        <h2>Our Key Features</h2>
-                    </div>
-                    <div class="feature-text">
-                        <div class="feature-img">
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="{{ url('user/img/b.JPG') }}" alt="Image">
-                                </div>
-                                <div class="col-6">
-                                    <img src="{{ url('user/img/aaaaa.JPG') }}" alt="Image">
-                                </div>
-                                <div class="col-6">
-                                    <img src="{{ url('user/img/aaa.JPG') }}" alt="Image">
-                                </div>
-                                <div class="col-6">
-                                    <img src="{{ url('user/img/aa.JPG') }}" alt="Image">
-                                </div>
-                            </div>
-                        </div>
-                        {{-- <p>
-                            Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit
-                            non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl
-                            nec nisi sceleri maximus
-                        </p> --}}
-                        <a class="btn custom-btn" href="{{ route('reservasi') }}">Book A Table</a>
-                    </div>
-                </div>
                 <div class="col-lg-7" style="margin-top: 150px">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="feature-item">
-                                <i class="flaticon-cooking"></i>
+                                {{-- <i class="flaticon-cooking"></i> --}}
+                                <i><img src="{{ url('user/img/coffee.png') }}" style="width: 60px; padding-bottom:15px"
+                                    alt=""></i>
                                 <h3>Special Menu</h3>
                                 {{-- <p>
                                     Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
@@ -249,6 +221,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-5">
+                    <div class="section-header">
+                        <p>Why Choose Us</p>
+                        <h2>Our Key Features</h2>
+                    </div>
+                    <div class="feature-text">
+                        <div class="feature-img">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="{{ url('img/index.png') }}" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="{{ url('img/index.png') }}" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="{{ url('img/index.png') }}" alt="Image">
+                                </div>
+                                <div class="col-6">
+                                    <img src="{{ url('img/index.png') }}" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn custom-btn" href="{{ route('reservasi') }}">Book A Table</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -256,7 +253,7 @@
 
 
     <!-- Food Start -->
-    <div class="food">
+    <!--<div class="food">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
@@ -297,7 +294,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Food End -->
 
 

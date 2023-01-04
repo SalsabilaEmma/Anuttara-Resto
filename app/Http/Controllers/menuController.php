@@ -129,7 +129,8 @@ class menuController extends Controller
             $imageBooklet->delete();
             return redirect()->back()->with(['error' => 'Data Berhasil Dihapus!']);
         } else {
-            return redirect()->back()->with(['error' => 'Data Tidak Ditemukan!']);
+            $imageBooklet->delete();
+            return redirect()->back()->with(['error' => 'Data Berhasil Dihapus!']);
         }
 
         return redirect()->back()->with('error', 'Data Berhasil Dihapus!');

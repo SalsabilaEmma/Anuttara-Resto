@@ -3,7 +3,7 @@
             <div class="container-fluid">
                 <a href="{{ route('index') }}" class="navbar-brand">
                     {{-- Anuttara <span>Resto</span> --}}
-                    <img src="{{ url('/img/logolala.png') }}" alt="">
+                    <img src="{{ url('/img/merah_motif.png') }}" alt="">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
