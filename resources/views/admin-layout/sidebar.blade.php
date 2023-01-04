@@ -3,7 +3,7 @@
         <div class="sidebar-brand">
             <a href="{{ route('admin') }}">
                 <img alt="image" src="{{ url('img') }}/logolala.png" class="header-logo" />
-                {{-- <span class="logo-name">Koromi Resto</span> --}}
+                {{-- <span class="logo-name">Anuttara Resto</span> --}}
             </a>
         </div>
         <ul class="sidebar-menu">

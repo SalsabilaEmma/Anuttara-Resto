@@ -164,7 +164,7 @@
                     <div class="about-content">
                         <div class="section-header">
                             <p>About Us</p>
-                            <h2>Koromi Resto</h2>
+                            <h2>Anuttara Resto</h2>
                         </div>
                         <div class="about-text">
                             @foreach ($about as $abouts)
@@ -263,7 +263,7 @@
                     <div class="food-item">
                         <img src="{{ url('user/img/coffee.png') }}" style="width: 75px; padding-bottom:15px"
                             alt="">
-                        <h2 style="color: #125836">Kopi</h2>
+                        <h2 style="color: #461220">Kopi</h2>
                         {{-- <p>
                             Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non
                             vulputa. Aliquam metus tortor auctor quis sem.
@@ -275,7 +275,7 @@
                     <div class="food-item">
                         <img src="{{ url('user/img/breads.png') }}" style="width: 75px; padding-bottom:15px"
                             alt="">
-                        <h2 style="color: #125836">Roti</h2>
+                        <h2 style="color: #461220">Roti</h2>
                         {{-- <p>
                             Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non
                             vulputa. Aliquam metus tortor auctor quis sem.
@@ -287,7 +287,7 @@
                     <div class="food-item">
                         <img src="{{ url('user/img/noodles.png') }}" style="width: 75px; padding-bottom:15px"
                             alt="">
-                        <h2 style="color: #125836">Mie</h2>
+                        <h2 style="color: #461220">Mie</h2>
                         {{-- <p>
                             Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non
                             vulputa. Aliquam metus tortor auctor quis sem.
@@ -325,15 +325,15 @@
                         <div class="row">
                             @foreach ($food as $menus)
                                 {{-- @if ($menus->kategori == 'Makanan') --}}
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="menu-item">
-                                            <div class="menu-text style="font-size: 8pt"">
-                                                <h3><span>{{ $menus->namaMenu }}</span>
-                                                    <strong>{{ $menus->harga }}</strong>
-                                                </h3>
-                                            </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-text style="font-size: 8pt"">
+                                            <h3><span>{{ $menus->namaMenu }}</span>
+                                                <strong>{{ $menus->harga }}</strong>
+                                            </h3>
                                         </div>
                                     </div>
+                                </div>
                                 {{-- @endif --}}
                             @endforeach
                         </div>
@@ -342,15 +342,15 @@
                         <div class="row">
                             @foreach ($snack as $menus)
                                 {{-- @if ($menus->kategori == 'Snack') --}}
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="menu-item">
-                                            <div class="menu-text" style="font-size: 8pt">
-                                                <h3><span>{{ $menus->namaMenu }}</span>
-                                                    <strong>{{ $menus->harga }}</strong>
-                                                </h3>
-                                            </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-text" style="font-size: 8pt">
+                                            <h3><span>{{ $menus->namaMenu }}</span>
+                                                <strong>{{ $menus->harga }}</strong>
+                                            </h3>
                                         </div>
                                     </div>
+                                </div>
                                 {{-- @endif --}}
                             @endforeach
                         </div>
@@ -359,20 +359,23 @@
                         <div class="row">
                             @foreach ($drink as $menus)
                                 {{-- @if ($menus->kategori == 'Minuman') --}}
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="menu-item">
-                                            <div class="menu-text" style="font-size: 8pt">
-                                                <h3><span>{{ $menus->namaMenu }}</span>
-                                                    <strong>{{ $menus->harga }}</strong>
-                                                </h3>
-                                            </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="menu-item">
+                                        <div class="menu-text" style="font-size: 8pt">
+                                            <h3><span>{{ $menus->namaMenu }}</span>
+                                                <strong>{{ $menus->harga }}</strong>
+                                            </h3>
                                         </div>
                                     </div>
+                                </div>
                                 {{-- @endif --}}
                             @endforeach
                         </div>
                     </div><br>
-                    <a href="{{ route('menu') }}" class="text-center"><p style="font-size: 20pt">See More ...</p><hr></a>
+                    <a href="{{ route('menu') }}" class="text-center">
+                        <p style="font-size: 20pt">See More ...</p>
+                        <hr>
+                    </a>
                 </div>
             </div>
         </div>
@@ -477,7 +480,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Address</h3>
-                            <p>Jl. Panglima Sudirman Nomor 73, Gresik, Jawa Timur</p>
+                            <p>Jl. Meces - Pokoh, Wonosalam, Sukoharjo, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
                         </div>
                     </div>
                 </div>
@@ -488,7 +491,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Call Us</h3>
-                            <p>0812-3131-5677</p>
+                            <p>0813-9936-8811</p>
                         </div>
                     </div>
                 </div>
@@ -499,7 +502,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Email Us</h3>
-                            <p>officialkoromi@gmail.com</p>
+                            <p>anuttara.resto@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -511,8 +514,10 @@
                         <div class="contact-text">
                             <h3>Follow Us</h3>
                             <div class="contact-social">
-                                <a href="https://api.whatsapp.com/send/?phone=6281231315677&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                                <a href="https://www.instagram.com/koromi.cafe/?hl=id" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://api.whatsapp.com/send/?phone=6281399368811&text&type=phone_number&app_absent=0"
+                                    target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                <a href="https://www.instagram.com/anuttara.resto/?hl=id" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -522,27 +527,31 @@
             <div class="row contact-form">
                 <div class="col-md-6">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.6569554092434!2d112.65482329999999!3d-7.165596899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd801b20156d187%3A0x265d8476011ad0f1!2sKoromi!5e0!3m2!1sid!2sid!4v1671357780062!5m2!1sid!2sid"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.9854022277523!2d110.42483949999999!3d-7.6847144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5fbe5c3e2f19%3A0xbb2bb71a330b4b66!2sAnuttara%20Resto!5e0!3m2!1sid!2sid!4v1672835228452!5m2!1sid!2sid"
                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>
                 <div class="col-md-6">
                     <div id="success"></div>
-                    <form action="{{ route('kontak.store') }}" novalidate="novalidate" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('kontak.store') }}" novalidate="novalidate" method="POST"
+                        enctype="multipart/form-data">
                         {{ csrf_field() }}
                         <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name" name="nama"
-                                required="required" data-validation-required-message="Please enter your name" />
+                            <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                name="nama" required="required"
+                                data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email" name="email"
-                                required="required" data-validation-required-message="Please enter your email" />
+                            <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                name="email" required="required"
+                                data-validation-required-message="Please enter your email" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control" id="subjek" placeholder="Subject" name="subjek"
-                                required="required" data-validation-required-message="Please enter a subject" />
+                            <input type="text" class="form-control" id="subjek" placeholder="Subject"
+                                name="subjek" required="required"
+                                data-validation-required-message="Please enter a subject" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">

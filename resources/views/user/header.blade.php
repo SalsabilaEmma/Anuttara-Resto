@@ -2,7 +2,7 @@
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
                 <a href="{{ route('index') }}" class="navbar-brand">
-                    {{-- Koromi <span>Resto</span> --}}
+                    {{-- Anuttara <span>Resto</span> --}}
                     <img src="{{ url('/img/logolala.png') }}" alt="">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">

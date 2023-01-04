@@ -10,7 +10,7 @@
                             <h4>KOROMI RESTO</h4>
                         </div>
                         <div class="card-body zoom">
-                            <center><img src="{{ url('img') }}/logo.png" height="80px" alt="Koromi Resto Logo"></center>
+                            <center><img src="{{ url('img') }}/logo.png" height="80px" alt="Anuttara Resto Logo"></center>
                         </div>
                     </div>
                 </div>
