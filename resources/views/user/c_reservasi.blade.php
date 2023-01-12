@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Reservasi</h2>
+                    <h2 style="font-family: Great Vibes;">Reservasi</h2>
                 </div>
                 <div class="col-12">
                     <a href="{{ route('index') }}">Home</a>
@@ -36,7 +36,7 @@
                         <div class="booking-content">
                             <div class="section-header">
                                 <p>Book A Table</p>
-                                <h2>Book Your Table For Private Dinners & Happy Hours</h2>
+                                <h2 style="font-family: Great Vibes;color: #454545;">Book Your Table For Private Dinners & Happy Hours</h2>
                             </div>
                             <div class="about-text">
                                 {{-- <p>

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Gallery</h2>
+                    <h2 style="font-family: Great Vibes;">Gallery</h2>
                 </div>
                 <div class="col-md-12">
                     <a href="{{ route('index') }}">Home</a>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>Mini Gallery</p>
-                <h2>Our Gallery</h2>
+                <h2 style="font-family: Great Vibes;color: #454545;">Our Gallery</h2>
             </div>
             <div class="row">
                 @foreach ($gallery as $img)

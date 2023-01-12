@@ -10,7 +10,7 @@
                             <img src="{{ url('img/banner/' . $banners->file) }}" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1>{{ $banners->judul }}</h1>
+                            <h1 style="font-family: Great Vibes;">{{ $banners->judul }}</h1>
                             <p>{{ $banners->keterangan }}</p>
                             <div class="carousel-btn">
                                 <a class="btn custom-btn" href="{{ route('menu') }}">View Menu</a>
@@ -44,7 +44,7 @@
                     <div class="booking-content">
                         <div class="section-header">
                             <p>Book A Table</p>
-                            <h2>Book Your Table For Private Dinners & Happy Hours</h2>
+                            <h2 style="font-family: Great Vibes;color: #454545;">Book Your Table For Private Dinners & Happy Hours</h2>
                         </div>
                         <div class="about-text">
                             {{-- <p>
@@ -164,12 +164,12 @@
                     <div class="about-content">
                         <div class="section-header">
                             <p>About Us</p>
-                            <h2>Anuttara Resto</h2>
+                            <h2 style="font-family: Great Vibes;color: #454545;">Anuttara Resto</h2>
                         </div>
                         <div class="about-text">
                             @foreach ($about as $abouts)
                                 @if ($abouts->judul == 'About Us')
-                                    <p>{!! $abouts->isi !!}</p>
+                                    <p style="font-family: Montserrat;">{!! $abouts->isi !!}</p>
                                 @endif
                             @endforeach
                             {{-- <a class="btn custom-btn" href="">Book A Table</a> --}}
@@ -190,9 +190,9 @@
                         <div class="col-sm-6">
                             <div class="feature-item">
                                 {{-- <i class="flaticon-cooking"></i> --}}
-                                <i><img src="{{ url('user/img/coffee.png') }}" style="width: 60px; padding-bottom:15px"
+                                <i><img src="{{ url('user/img/menu1.png') }}" style="width: 60px; padding-bottom:15px"
                                     alt=""></i>
-                                <h3>Special Menu</h3>
+                                <h3 style="font-family: Nunito;">Special Menu</h3>
                                 {{-- <p>
                                     Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non
                                     vulput metus tortor
@@ -201,8 +201,9 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="feature-item">
-                                <i class="flaticon-vegetable"></i>
-                                <h3>Welcome for reservation</h3>
+                                <i><img src="{{ url('user/img/booking.png') }}" style="width: 60px; padding-bottom:15px"
+                                    alt=""></i>
+                                <h3 style="font-family: Nunito;">Welcome for reservation</h3>
                             </div>
                         </div>
                     </div>
@@ -210,13 +211,14 @@
                         <div class="col-sm-6">
                             <div class="feature-item">
                                 <i class="flaticon-medal"></i>
-                                <h3>Exclusive service</h3>
+                                <h3 style="font-family: Nunito;">Exclusive service</h3>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="feature-item">
-                                <i class="flaticon-meat"></i>
-                                <h3>Comfort Place</h3>
+                                <i><img src="{{ url('user/img/restaurant(1).png') }}" style="width: 60px; padding-bottom:15px"
+                                    alt=""></i>
+                                <h3 style="font-family: Nunito;">Comfort Place</h3>
                             </div>
                         </div>
                     </div>
@@ -224,7 +226,7 @@
                 <div class="col-lg-5">
                     <div class="section-header">
                         <p>Why Choose Us</p>
-                        <h2>Our Key Features</h2>
+                        <h2 style="font-family: Great Vibes;color: #454545;">Our Key Features</h2>
                     </div>
                     <div class="feature-text">
                         <div class="feature-img">
@@ -303,7 +305,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>Food Menu</p>
-                <h2>Delicious Food Menu</h2>
+                <h2 style="font-family: Great Vibes;color: #454545;">Delicious Food Menu</h2>
             </div>
             <div class="menu-tab">
                 <ul class="nav nav-pills justify-content-center">
@@ -325,7 +327,7 @@
                                 <div class="col-lg-6 col-md-12">
                                     <div class="menu-item">
                                         <div class="menu-text style="font-size: 8pt"">
-                                            <h3><span>{{ $menus->namaMenu }}</span>
+                                            <h3 style="font-family: Montserrat;"><span>{{ $menus->namaMenu }}</span>
                                                 <strong>{{ $menus->harga }}</strong>
                                             </h3>
                                         </div>
@@ -342,7 +344,7 @@
                                 <div class="col-lg-6 col-md-12">
                                     <div class="menu-item">
                                         <div class="menu-text" style="font-size: 8pt">
-                                            <h3><span>{{ $menus->namaMenu }}</span>
+                                            <h3 style="font-family: Montserrat;"><span>{{ $menus->namaMenu }}</span>
                                                 <strong>{{ $menus->harga }}</strong>
                                             </h3>
                                         </div>
@@ -359,7 +361,7 @@
                                 <div class="col-lg-6 col-md-12">
                                     <div class="menu-item">
                                         <div class="menu-text" style="font-size: 8pt">
-                                            <h3><span>{{ $menus->namaMenu }}</span>
+                                            <h3 style="font-family: Montserrat;"><span>{{ $menus->namaMenu }}</span>
                                                 <strong>{{ $menus->harga }}</strong>
                                             </h3>
                                         </div>
@@ -467,7 +469,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>Contact Us</p>
-                <h2>Contact For Any Query</h2>
+                <h2 style="font-family: Great Vibes;color: #454545;">Contact For Any Query</h2>
             </div>
             <div class="row align-items-center contact-information">
                 <div class="col-md-6 col-lg-3">
@@ -477,7 +479,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Address</h3>
-                            <p>Jl. Meces - Pokoh, Wonosalam, Sukoharjo, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
+                            <p style="font-family: Montserrat;">Jl. Meces - Pokoh, Wonosalam, Sukoharjo, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
                         </div>
                     </div>
                 </div>
@@ -488,7 +490,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Call Us</h3>
-                            <p>0813-9936-8811</p>
+                            <p style="font-family: Montserrat;">0813-9936-8811</p>
                         </div>
                     </div>
                 </div>
@@ -499,7 +501,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Email Us</h3>
-                            <p>anuttara.resto@gmail.com</p>
+                            <p style="font-family: Montserrat;">anuttara.resto@gmail.com</p>
                         </div>
                     </div>
                 </div>

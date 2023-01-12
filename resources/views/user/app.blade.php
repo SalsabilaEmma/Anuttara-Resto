@@ -24,6 +24,8 @@
     <link href="{{ url('user') }}/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
     <!-- Template Stylesheet -->
     <link href="{{ url('user') }}/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     @section('css')
     @show
 </head>

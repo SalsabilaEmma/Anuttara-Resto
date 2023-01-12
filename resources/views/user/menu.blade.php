@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Our Menu</h2>
+                    <h2 style="font-family: Great Vibes;">Our Menu</h2>
                 </div>
                 <div class="col-md-12">
                     <a href="{{ route('index') }}">Home</a>
@@ -22,7 +22,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>Food Menu</p>
-                <h2>Delicious Food Menu</h2>
+                <h2 style="font-family: Great Vibes;color: #454545;">Delicious Food Menu</h2>
             </div>
             <div class="menu-tab">
                 <ul class="nav nav-pills justify-content-center">
@@ -44,7 +44,7 @@
                                 <div class="col-lg-6 col-md-12">
                                     <div class="menu-item">
                                         <div class="menu-text" style="font-size: 8pt">
-                                            <h3><span>{{ $menus->namaMenu }}</span>
+                                            <h3 style="font-family: Montserrat;"><span>{{ $menus->namaMenu }}</span>
                                                 <strong>{{ $menus->harga }}</strong>
                                             </h3>
                                         </div>

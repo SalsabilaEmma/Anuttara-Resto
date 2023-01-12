@@ -11,12 +11,12 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
-                        <a href="/#about" class="nav-item nav-link">About</a>
+                        <a style="font-family: Montserrat;" href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
+                        <a style="font-family: Montserrat;" href="/#about" class="nav-item nav-link">About</a>
                         {{-- <a href="feature.html" class="nav-item nav-link">Feature</a> --}}
-                        <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
-                        <a href="{{ route('menu') }}" class="nav-item nav-link">Menu</a>
-                        <a href="{{ route('reservasi') }}" class="nav-item nav-link">Reservation</a>
+                        <a style="font-family: Montserrat;" href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
+                        <a style="font-family: Montserrat;" href="{{ route('menu') }}" class="nav-item nav-link">Menu</a>
+                        <a style="font-family: Montserrat;" href="{{ route('reservasi') }}" class="nav-item nav-link">Reservation</a>
                         {{-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
@@ -24,7 +24,7 @@
                                 <a href="single.html" class="dropdown-item">Blog Detail</a>
                             </div>
                         </div> --}}
-                        <a href="{{ route('kontak') }}" class="nav-item nav-link">Contact</a>
+                        <a style="font-family: Montserrat;" href="{{ route('kontak') }}" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>

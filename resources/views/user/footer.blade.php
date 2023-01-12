@@ -6,15 +6,15 @@
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="footer-contact">
-                                    <h2>Our Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>Jl. Meces - Pokoh, Wonosalam, Sukoharjo, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
-                                    <p><i class="fa fa-phone-alt"></i>0813-9936-8811</p>
-                                    <p><i class="fa fa-envelope"></i>anuttara.resto@gmail.com </p>
+                                    <h2 style="font-family: Great Vibes;">Our Address</h2>
+                                    <p style="font-family: Montserrat;"><i class="fa fa-map-marker-alt"></i>Jl. Meces - Pokoh, Wonosalam, Sukoharjo, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
+                                    <p style="font-family: Montserrat;"><i class="fa fa-phone-alt"></i>0813-9936-8811</p>
+                                    <p style="font-family: Montserrat;"><i class="fa fa-envelope"></i>anuttara.resto@gmail.com </p>
                                 </div>
                             </div>
                             <div class="col-md-5">
                                 <div class="footer-link">
-                                    <h2>Quick Links</h2>
+                                    <h2 style="font-family: Great Vibes;">Quick Links</h2>
                                     <a href="/#about">About Us</a>
                                     <a href="{{ route('gallery') }}">Gallery</a>
                                     <a href="{{ route('menu') }}">Menu</a>
@@ -26,8 +26,8 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="footer-newsletter">
-                            <h2>Anuttara Resto</h2>
-                            <p>Anuttara Cafe and Resto Makes You Happy
+                            <h2 style="font-family: Great Vibes;">Anuttara Resto</h2>
+                            <p style="font-family: Montserrat;">Anuttara Cafe and Resto Makes You Happy
                             </p>
                             {{-- <div class="form">
                                 <input class="form-control" placeholder="Email goes here">

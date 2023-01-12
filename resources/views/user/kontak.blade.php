@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Our Menu</h2>
+                    <h2 style="font-family: Great Vibes;">Contact Us</h2>
                 </div>
                 <div class="col-md-12">
                     <a href="{{ route('index') }}">Home</a>
@@ -22,8 +22,8 @@
     <div class="contact">
         <div class="container">
             <div class="section-header text-center">
-                <p>Contact Us</p>
-                <h2>Contact For Any Query</h2>
+                <p style="font-family: Montserrat;">Contact Us</p>
+                <h2 style="font-family: Great Vibes;color: #454545;">Contact For Any Query</h2>
             </div>
             <div class="row align-items-center contact-information">
                 <div class="col-md-6 col-lg-3">
@@ -33,7 +33,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Address</h3>
-                            <p>Jl. Panglima Sudirman Nomor 73, Gresik, Jawa Timur</p>
+                            <p style="font-family: Montserrat;">Jl. Panglima Sudirman Nomor 73, Gresik, Jawa Timur</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Call Us</h3>
-                            <p>0812-3131-5677</p>
+                            <p style="font-family: Montserrat;">0812-3131-5677</p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Email Us</h3>
-                            <p>anuttara.resto@gmail.com</p>
+                            <p style="font-family: Montserrat;">anuttara.resto@gmail.com</p>
                         </div>
                     </div>
                 </div>
