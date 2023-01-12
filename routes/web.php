@@ -26,7 +26,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', [userController::class, 'index'])->name('index');
+Route::get('/index', [userController::class, 'index'])->name('index');
 Route::get('/menu', [userController::class, 'menu'])->name('menu');
 Route::get('/gallery', [userController::class, 'gallery'])->name('gallery');
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
